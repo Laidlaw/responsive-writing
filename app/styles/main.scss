@@ -1,0 +1,31 @@
+$brand-primary:         #14C4BC !default;
+$brand-success:         #14C4BC !default; /* #5cb85c  */
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.thumbnail {
+  height: 200px;
+
+  img.pull-right {
+    width: 50px;
+  }
+}
+
+.jumbotron {
+  background-color: $brand-primary;
+  h1 {
+    color:#fff;
+  }
+}
+
+.btn-success {
+  border: 1px solid white;
+}
